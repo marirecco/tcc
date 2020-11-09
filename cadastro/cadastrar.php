@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <title>Dados Pessoais</title>
@@ -135,7 +135,7 @@
                         </div>
 
                         <input type="submit" class="btn btn-primary" value="Enviar">
-                        <a href="http://localhost/Plataforma_Expert/startbootstrap-freelancer-gh-pages/#" class="btn btn-default">Cancelar</a>
+                        <a href="../#" class="btn btn-default">Cancelar</a>
                     </form>
                 </div>
             </div>        
