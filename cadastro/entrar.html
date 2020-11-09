@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Entrar</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <style type="text/css">
+        .wrapper{
+             width: 500px;
+            margin: 0 auto;
+            font-family: "arial";
+            font-size: 2.08rem;
+            font-weight: 400;
+            line-height: 2.5;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            color: white;
+            text-align: left;
+            background-color: #05104E;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container-fluid">
+            <form method="POST" action="entrar.php">
+            <div class="form-row">
+                <div class="col-md-12">
+                    <div class="page-header">
+                        <h2>Entrar</h2>
+                    </div>
+
+                        <div class="form-group">
+                            <label>E-mail:</label>
+                            <input type="email" name="mail" class="form-control"
+                            id="mail" placeholder="digite seu e-mail aqui">
+                            <span class="help-block"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Senha:</label>
+                            <input type="password" name="senhal" class="form-control"
+                            id="senhal" placeholder="digite sua senha aqui">
+                            <span class="help-block"></span>
+                            <p><a href="http://localhost/cadastro/esquecisenha" target="_blank">Esqueci a senha</p>
+                            <p><a href="create.php" target="_blank">Cadastrar</p>
+                        </div>
+
+                        <input type="submit" value="Enviar">
+                        <a href="http://localhost/Plataforma_ExpeRT/startbootstrap-freelancer-gh-pages/" class="btn btn-default">Cancelar</a>
+                    </form>
+                </div>
+            </div>        
+        </div>
+    </div>
+</body>
+</html>
